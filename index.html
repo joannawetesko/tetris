@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vanilla JavaScript Tetris</title>
+  <link rel="stylesheet" type="text/css" href="./src/style/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto">
+  <link rel="icon" href="data:,">
+</head>
+
+<body class="content">
+
+  <!-- CONTENT -->
+  <div class="main">
+      <div class="info">
+          <div>
+              <p>Score: <span id="score">0</span></p>
+              <p>Level: <span id="level">0</span></p>
+              <p>Removed lines: <span id="lines">0</span></p>
+              <br/>
+              <br/>
+              <p>Next piece:</p>
+              <canvas id="next-piece" class="next-piece"></canvas>
+              <br/>
+              <br/>
+          </div>
+          <div class="button-wrapper">
+            <button onclick="startGame()" class="start-button">Start</button>
+          </div>
+          </div>
+      <canvas id="game-board" class="game-board"></canvas>
+  </div>
+  
+
+  <!-- SCRIPTS -->
+  <script type="text/javascript" src="bundle.js"></script>
+  <script type="module" src="./src/js/utils/constants.js"></script>
+  <script type="module" src="./src/js/models/piece.js"></script>
+  <script type="module" src="./src/js/models/board.js"></script>
+  <script type="module" src="./src/js/index.js"></script>
+
+</body>
+</html>
