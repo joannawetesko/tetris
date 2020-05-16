@@ -11,5 +11,5 @@ Feel free to play yourself - https://joannawetesko.github.io/tetris/
 | LEFT/RIGHT | go left/right |
 | DOWN | soft drop |
 | SPACE | hard drop |
-| P | exit game |
+| ESC | exit game |
 | P | pause game |
