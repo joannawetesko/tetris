@@ -1,14 +1,15 @@
-# tetris
-Tetris in ES6.
+# Tetris
 
+A simple Tetris game written in Javascript. 
+Feel free to play yourself - https://joannawetesko.github.io/tetris/
 
-[Check it out!](https://joannawetesko.github.io/tetris/)
+#### Controls:
 
-
-* Rotate - UP
-* Go left - LEFT
-* Go right - RIGHT
-* Soft drop - DOWN
-* Hard drop - SPACE
-* Pause - P
-* Exit game - ESC
+| KEY | ACTION |
+|--|--|
+| UP | rotate |
+| LEFT/RIGHT | go left/right |
+| DOWN | soft drop |
+| SPACE | hard drop |
+| P | exit game |
+| P | pause game |
